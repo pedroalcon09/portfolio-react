@@ -1,34 +1,10 @@
 export const projetos = {
   DOM: [
     {
-      title: "Jogos de Azar",
-      img: "../imgs/zeca.png",
-      description:
-        "Meu primeiro trabalho em grupo mais robusto com uso de HTML, CSS e JavaScript. Um caça-palavras e um caça níquel, ambos com a temática do sambista Zeca Pagodinho.",
-      link: "https://pedroalcon09.github.io/m1-entrega-s4-entrega-construa-um-jogo-de-azar-vitorggg/",
-      repo: "https://github.com/pedroalcon09/m1-entrega-s4-entrega-construa-um-jogo-de-azar-vitorggg",
-    },
-    {
-      title: "E-commerce genérico",
-      img: "../imgs/commerce.png",
-      description:
-        "Um projeto bem simples, apenas com funcionalidade de adicionar e remover do carrinho, tudo feito com DOM.",
-      link: "https://pedroalcon09.github.io/m1-entrega-s4-ecommerce-parte-dois-pedroalcon09/#",
-      repo: "https://github.com/pedroalcon09/m1-entrega-s4-ecommerce-parte-dois-pedroalcon09",
-    },
-    {
-      title: "Jogo da Velha",
-      img: "../imgs/velha.png",
-      description:
-        "Meu primeiro projeto com DOM, um jogo da velha bem simples, todo funcional.",
-      link: "https://pedroalcon09.github.io/atividade-jogo-da-velha-sprint-1-pedroalcon09/",
-      repo: "https://github.com/pedroalcon09/atividade-jogo-da-velha-sprint-1-pedroalcon09",
-    },
-    {
       title: "Torre de Hanói",
       img: "../imgs/hanoi.png",
       description:
-        "Meu primeiro projeto um pouco mais robusto em JS. Utilizei recursos de DOM e lógica. Trabalho em dupla do segundo módulo do curso Full-Stack da Kenzie Academy",
+        "Projeto feito com recursos de DOM e JavaScript na lógica. Trabalho em dupla do segundo módulo do curso Full-Stack da Kenzie Academy",
       link: "https://kenzie-academy-brasil-developers.github.io/m2-entrega-torre-de-hanoi-sprint-1a-pedroalcon09/",
       repo: "https://github.com/pedroalcon09/m2-entrega-torre-de-hanoi-sprint-1a-pedroalcon09",
     },
@@ -40,8 +16,48 @@ export const projetos = {
       link: "https://kenzie-academy-brasil-developers.github.io/extra-quadro-medalhas-m2-sprint-3a-pedroalcon09/",
       repo: "https://github.com/pedroalcon09/extra-quadro-medalhas-m2-sprint-3a-pedroalcon09",
     },
+    {
+      title: "Jogos de Azar",
+      img: "../imgs/zeca.png",
+      description:
+        "Um caça-palavras e um caça níquel, ambos feitos com HTML, CSS, JavaScript puros.",
+      link: "https://pedroalcon09.github.io/m1-entrega-s4-entrega-construa-um-jogo-de-azar-vitorggg/",
+      repo: "https://github.com/pedroalcon09/m1-entrega-s4-entrega-construa-um-jogo-de-azar-vitorggg",
+    },
+    {
+      title: "E-commerce genérico",
+      img: "../imgs/commerce.png",
+      description:
+        "Meu primeiro e-commerce, apenas com funcionalidade de adicionar e remover do carrinho feito com DOM.",
+      link: "https://pedroalcon09.github.io/m1-entrega-s4-ecommerce-parte-dois-pedroalcon09/#",
+      repo: "https://github.com/pedroalcon09/m1-entrega-s4-ecommerce-parte-dois-pedroalcon09",
+    },
+    {
+      title: "Jogo da Velha",
+      img: "../imgs/velha.png",
+      description:
+        "Meu primeiro projeto com DOM, um jogo da velha bem simples, todo funcional.",
+      link: "https://pedroalcon09.github.io/atividade-jogo-da-velha-sprint-1-pedroalcon09/",
+      repo: "https://github.com/pedroalcon09/atividade-jogo-da-velha-sprint-1-pedroalcon09",
+    },
   ],
   REACT: [
+    {
+      title: "Kenzie Hub",
+      img: "../imgs/kenzie-hub-dashboard.png",
+      description:
+        " Esse projeto foi feito com uma API da Kenzie Academy, onde o usuário cria uma conta e mantenha uma lista das tecnologias que aprendeu.",
+      link: "https://m3-sp2b-atvd12.vercel.app/",
+      repo: "https://github.com/pedroalcon09/react-entrega-s2-kenzie-hub-pedroalcon09",
+    },
+    {
+      title: "Disco Kenzie",
+      img: "../imgs/disco-kenzie.png",
+      description:
+        "Esse projeto foi feito com o ContextAPI, um banco de dados simples e recursos do react nativo e de livrarias.",
+      link: "https://m3-sp3b-atvd05-pedroalcon09.vercel.app/",
+      repo: "https://github.com/pedroalcon09/react-entrega-s3-kenzieshop-pedroalcon09-1",
+    },
     {
       title: "Formulário de Cadastro",
       img: "../imgs/form.png",
@@ -57,22 +73,6 @@ export const projetos = {
         "Esse projeto já envolve o consumo de APIs e criação de um sistema de páginação.",
       link: "https://buscando-personagens-rick-morty.vercel.app/",
       repo: "https://github.com/pedroalcon09/react-atividade-s1-buscando-mais-personagens-pedroalcon09",
-    },
-    {
-      title: "Disco Kenzie",
-      img: "../imgs/disco-kenzie.png",
-      description:
-        "Esse projeto foi feito com o ContextAPI, um banco de dados simples e recursos do react nativo e de livrarias.",
-      link: "https://m3-sp3b-atvd05-pedroalcon09.vercel.app/",
-      repo: "https://github.com/pedroalcon09/react-entrega-s3-kenzieshop-pedroalcon09-1",
-    },
-    {
-      title: "Kenzie Hub",
-      img: "../imgs/kenzie-hub-dashboard.png",
-      description:
-        " Esse projeto foi feito com uma API da Kenzie Academy, onde permite-se que o usuário crie uma conta e mantenha uma lista das tecnologias que aprendeu e do nível de cada uma.",
-      link: "https://m3-sp2b-atvd12.vercel.app/",
-      repo: "https://github.com/pedroalcon09/react-entrega-s2-kenzie-hub-pedroalcon09",
     },
     {
       title: "Burguer Kenzie",
