@@ -5,7 +5,7 @@ function Header() {
   return (
     <StyledHeader>
       <a
-        href="https://pedroalcon09.github.io/CV-pedro-alcon/"
+        href="https://cv-pedro-alcon.vercel.app/"
         target="_blank"
         rel="noreferrer"
       >
