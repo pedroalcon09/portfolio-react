@@ -48,6 +48,7 @@ export const StyledHeader = styled.header`
   a:hover {
     border-color: rgb(216, 21, 216);
     color: rgb(216, 21, 216);
+    background-color: rgba(30, 30, 30, 0.7);
   }
 
   li {

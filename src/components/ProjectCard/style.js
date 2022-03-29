@@ -31,6 +31,8 @@ export const StyledCard = styled.li`
   :hover {
     background-color: rgb(35, 35, 35);
     color: lightgrey;
+    box-shadow: rgba(100, 100, 100, 0.7) 0px 14px 28px,
+      rgba(100, 100, 100, 0.7) 0px 13px 13px;
 
     a {
       color: lightgrey;
