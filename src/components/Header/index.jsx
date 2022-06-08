@@ -4,11 +4,7 @@ import { StyledHeader } from "./style.js";
 function Header() {
   return (
     <StyledHeader>
-      <a
-        href="https://cv-pedro-alcon.vercel.app/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://cv-pedro-alcon.vercel.app/" rel="noreferrer">
         Retornar para currículo
       </a>
       <h1>Portfólio Pedro Alcon</h1>
