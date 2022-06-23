@@ -91,4 +91,46 @@ export const projetos = {
       repo: "https://github.com/pedroalcon09/react-entrega-s1-nu-kenzie-pedroalcon09",
     },
   ],
+  BACKEND: [
+    {
+      title: "Sistema de usuários",
+      tools: ["node"],
+      description: "Meu primeiro CRUD com sistema de login e autenticação.",
+      repo: "https://github.com/pedroalcon09/m4-entrega-sprint1-pedroalcon09",
+    },
+    {
+      title: "Produtos e categorias",
+      tools: ["docker", "node", "pg", "jest"],
+      description:
+        "Dois CRUDs, um de produtos e outro de categorias que se relacionam de forma 1:N",
+      repo: "https://github.com/pedroalcon09/m4_sprint4-entrega-pedroalcon09",
+    },
+    {
+      title: "Usuários com TypeORM",
+      tools: ["ts", "node"],
+      description: "Um CRUD  de usuários simples.",
+      repo: "https://github.com/pedroalcon09/sprint5-entrega-pedroalcon09",
+    },
+    {
+      title: "E-commerce",
+      tools: ["ts", "node", "pg", "jest"],
+      description:
+        "Um sistema de backend completo com sistema de segurança, login, criação de usários vendedores e compradores e cadastros de produtos.",
+      repo: "https://github.com/pedroalcon09/capstone-M4-makeMarket",
+    },
+    {
+      title: "Empresa",
+      tools: ["python", "django", "pytest"],
+      description:
+        "Um sistema de backend para uma empresa com holerites, cadastro de funcionarios, gerentes, contratações e demissões.",
+      repo: "https://github.com/pedroalcon09/m5-sprint2-empresa-pedroalcon09",
+    },
+    {
+      title: "Kenzie Pet",
+      tools: ["python", "django"],
+      description:
+        "Um CRUD para de pets com raças e características utilizando o rest framework do Django.",
+      repo: "",
+    },
+  ],
 };

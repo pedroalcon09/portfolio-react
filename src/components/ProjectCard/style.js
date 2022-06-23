@@ -48,6 +48,17 @@ export const StyledCard = styled.li`
     }
   }
 
+  .backend-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    img {
+      width: 110px;
+      height: 50px;
+    }
+  }
+
   h3 {
     font-size: 20px;
     border-bottom: 2px solid black;

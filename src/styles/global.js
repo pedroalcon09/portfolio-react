@@ -20,10 +20,27 @@ export default createGlobalStyle`
     }
   }
 
-	@keyframes pulse {
+	@keyframes pulseY {
         0% {
             transform: scale(0.95);
             box-shadow: 0 0 0 0 yellow;
+        }
+    
+        50% {
+            transform: scale(1);
+            box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
+        }
+    
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+    }
+
+    @keyframes pulseB {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 blue;
         }
     
         50% {
@@ -52,8 +69,28 @@ export default createGlobalStyle`
         width: 25px;
         height: 25px;
         margin-right: 10px;
-        animation: pulse 1s linear infinite both;
+        animation: pulseY 1s linear infinite both;
       }
+
+    .icon-backend1, .icon-backend2 {
+        width: fit-content;
+        height: 25px;
+        font-size: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .icon-backend1 {
+        margin: 0px 10px;
+        color: blue;
+        animation: pulseB 1s linear infinite both;
+    }
+
+    .icon-backend2 {
+        margin: 0px 15px;
+        color: yellow;
+        animation: pulseY 1s linear infinite both;
+    }
   }
 
 * {

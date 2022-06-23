@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import ProjectCard from "./components/ProjectCard";
-import { FaJsSquare, FaReact } from "react-icons/fa";
+import { FaJsSquare, FaReact, FaNodeJs, FaPython } from "react-icons/fa";
+import { SiTypescript, SiPostgresql } from "react-icons/si";
 import { projetos } from "./projetos";
 import GlobalStyle, { Background } from "./styles/global";
 
@@ -12,6 +13,29 @@ function App() {
         <Header />
 
         <main>
+          <h2>
+            <div className="icon-backend1">
+              <SiTypescript />
+            </div>
+            <div className="icon-backend1">
+              <SiPostgresql />
+            </div>
+            Projetos de Back-End
+            <div className="icon-backend2">
+              <FaPython />
+            </div>
+            <div className="icon-backend2">
+              <FaNodeJs />
+            </div>
+          </h2>
+
+          <ul className="project-container">
+            {projetos.BACKEND.map((projeto) => {
+              return (
+                <ProjectCard key={projeto.title} project={projeto} backend />
+              );
+            })}
+          </ul>
           <h2>
             <div className="icon-react">
               <FaReact />
