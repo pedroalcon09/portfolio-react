@@ -1,15 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { SiVercel } from "react-icons/si";
 import { StyledCard } from "./style.js";
-// import { FaNodeJs, FaPython } from "react-icons/fa";
-// import {
-//   SiTypescript,
-//   SiPostgresql,
-//   SiJest,
-//   SiPytest,
-//   SiDjango,
-//   SiDocker,
-// } from "react-icons/si";
 
 function ProjectCard({ project, vercel, backend }) {
   const { title, img, description, link, repo, tools } = project;

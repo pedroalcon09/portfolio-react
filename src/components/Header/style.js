@@ -19,6 +19,23 @@ export const StyledHeader = styled.header`
   .react {
     color: aqua;
   }
+
+  .node {
+    color: green;
+  }
+
+  .python {
+    color: yellow;
+  }
+
+  .ts {
+    color: blue;
+  }
+
+  .sql {
+    color: yellow;
+  }
+
   .js {
     color: yellow;
   }
@@ -71,7 +88,7 @@ export const StyledHeader = styled.header`
 
   @media (min-width: 1024px) {
     h1 {
-      margin-right: 40px;
+      margin-right: -100px;
     }
   }
 `;

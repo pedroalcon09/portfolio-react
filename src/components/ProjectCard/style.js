@@ -54,8 +54,9 @@ export const StyledCard = styled.li`
     justify-content: space-around;
 
     img {
-      width: 110px;
-      height: 50px;
+      width: 75px;
+      margin: 5px 15px;
+      height: 60px;
     }
   }
 

@@ -1,5 +1,7 @@
 import { FaHtml5, FaCss3, FaJsSquare, FaReact } from "react-icons/fa";
 import { StyledHeader } from "./style.js";
+import { FaNodeJs, FaPython, FaDatabase } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 
 function Header() {
   return (
@@ -9,6 +11,18 @@ function Header() {
       </a>
       <h1>Portfólio Pedro Alcon</h1>
       <ul>
+        <li className="node">
+          <FaNodeJs />
+        </li>
+        <li className="python">
+          <FaPython />
+        </li>
+        <li className="ts">
+          <SiTypescript />
+        </li>
+        <li className="sql">
+          <FaDatabase />
+        </li>
         <li className="react">
           <FaReact />
         </li>
