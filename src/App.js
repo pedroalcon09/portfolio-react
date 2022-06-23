@@ -20,7 +20,7 @@ function App() {
             <div className="icon-backend1">
               <SiPostgresql />
             </div>
-            Projetos de Back-End
+            Projetos Backend
             <div className="icon-backend2">
               <FaPython />
             </div>

@@ -73,7 +73,7 @@ export const StyledHeader = styled.header`
   }
 
   ul {
-    font-size: 30px;
+    font-size: 20px;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -82,13 +82,15 @@ export const StyledHeader = styled.header`
   @media (min-width: 770px) {
     flex-direction: row;
     height: 150px;
-    h1 {
-    }
   }
 
   @media (min-width: 1024px) {
     h1 {
       margin-right: -100px;
+    }
+
+    ul {
+      font-size: 26px;
     }
   }
 `;
