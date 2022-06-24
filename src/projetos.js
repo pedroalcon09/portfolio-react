@@ -130,7 +130,7 @@ export const projetos = {
       tools: ["python", "django"],
       description:
         "Um CRUD para de pets com raças e características utilizando o rest framework do Django.",
-      repo: "",
+      repo: "https://github.com/pedroalcon09/m5-sprint3-kenzie-pet-pedroalcon09",
     },
   ],
 };
