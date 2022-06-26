@@ -137,7 +137,7 @@ export const projetos = {
       tools: ["python", "django"],
       description:
         "Um sistema de cadastro de filmes e de reviews com usuários administradores e comuns com login e autenticações de segurança.",
-      repo: "",
+      repo: "https://github.com/pedroalcon09/m5-sprint4-kmdb-pedroalcon09",
     },
   ],
 };
