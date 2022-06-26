@@ -132,5 +132,12 @@ export const projetos = {
         "Um CRUD para de pets com raças e características utilizando o rest framework do Django.",
       repo: "https://github.com/pedroalcon09/m5-sprint3-kenzie-pet-pedroalcon09",
     },
+    {
+      title: "Kenzie Movie DB",
+      tools: ["python", "django"],
+      description:
+        "Um sistema de cadastro de filmes e de reviews com usuários administradores e comuns com login e autenticações de segurança.",
+      repo: "",
+    },
   ],
 };
