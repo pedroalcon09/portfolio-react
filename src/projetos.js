@@ -120,7 +120,7 @@ export const projetos = {
     },
     {
       title: "Empresa",
-      tools: ["python", "django", "pytest"],
+      tools: ["python", "pytest"],
       description:
         "Um sistema de backend para uma empresa com holerites, cadastro de funcionarios, gerentes, contratações e demissões.",
       repo: "https://github.com/pedroalcon09/m5-sprint2-empresa-pedroalcon09",
