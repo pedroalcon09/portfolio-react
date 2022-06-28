@@ -94,7 +94,7 @@ export const projetos = {
       title: "Diskenzie Trade Music",
       img: "../imgs/dtm.png",
       description:
-        "Projeto de conclusão da parte de front-end do curso da Kenzie. Uma plataforma para troca e catálogo de álbuns de vinil. Realizado com React e varias livrarias como styled-components, router-dom, yup, hook-form e uma FakeAPI com JSON.",
+        "Uma plataforma para troca e catálogo de álbuns de vinil. Realizado com React e varias livrarias como styled-components, router-dom, yup, hook-form e uma FakeAPI com JSON.",
       link: "https://diskenzietrademusic.vercel.app/home",
       repo: "https://github.com/pedroalcon09/capstone-m3-dtm",
     },
